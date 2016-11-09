@@ -3,7 +3,8 @@ b = []
 old = []
 c = 0
 depth = 5
-u = 'http://www.csd.tsu.ru'
+print('Vvedite sait:')
+u = input()
 def rec(j, c):
 	c += 1
 	r = requests.get(j)
